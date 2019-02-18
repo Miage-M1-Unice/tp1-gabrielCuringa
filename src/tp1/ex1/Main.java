@@ -1,6 +1,5 @@
-package ex1;
+package tp1.ex1;
 
-import java.io.File;
 import java.io.FilenameFilter;
 
 public class Main {
