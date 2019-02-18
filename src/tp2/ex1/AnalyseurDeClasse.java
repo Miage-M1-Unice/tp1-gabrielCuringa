@@ -69,7 +69,6 @@ public class AnalyseurDeClasse {
     System.out.println("// Champs");
     Field[] fields = cl.getFields();
     for (Field field : fields) {
-      //System.out.println(Modifier.toString(field.getModifiers()));
       System.out.println(field);
     }
   }
