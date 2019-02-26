@@ -24,7 +24,8 @@ public class GenericToString {
                     for (int j = 0; j < Array.getLength(field.get(o)); j++) {
 
                         s += Array.get(field.get(o), j);
-                        s += ",";
+                        if(j != Array.getLength(field.get(o))-1)
+                            s += ",";
                     }
                     s += "}";
                 }else
